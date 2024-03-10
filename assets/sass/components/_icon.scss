@@ -82,14 +82,6 @@
 			color: _palette(accent3);
 		}
 
-		&.style4 {
-			color: _palette(accent4);
-		}
-
-		&.style5 {
-			color: _palette(accent5);
-		}
-
 		@include breakpoint('<=xlarge') {
 			&.major {
 				&:before {
