@@ -3448,7 +3448,6 @@ body.is-preload #header.alt .logo {
 @media screen and (max-width: 736px) {
 
 	#nav {
-		max-width: 100%;
 		padding: 0.5em;
 	}
 
@@ -3753,6 +3752,11 @@ body.is-preload #header.alt .logo {
 
 @media screen and (max-width: 980px) {
 
+	#nav {
+		/* max-width: 100%; */
+		padding: 0.5em;
+	}
+
 	#main>.main {
 		padding: 4em 3em 2em 3em;
 	}
@@ -3775,9 +3779,23 @@ body.is-preload #header.alt .logo {
 		width: calc(100% + 4em);
 	}
 
+	#nav {
+		/* max-width: 87%; */
+		padding: 0.5em;
+	}
+
 }
 
 @media screen and (max-width: 480px) {
+
+	#nav {
+		max-width: calc(100% - 2em);
+		padding: 0.5em;
+	}
+
+	#nav ul {
+		font-size: 15px;
+	}
 
 	#main>.main {
 		padding: 3em 1.5em 1em 1.5em;
@@ -3791,6 +3809,15 @@ body.is-preload #header.alt .logo {
 }
 
 @media screen and (max-width: 360px) {
+
+	#nav {
+		max-width: 100%;
+		padding: 0.5em;
+	}
+
+	#nav ul {
+		font-size: 12px;
+	}
 
 	#main {
 		border-radius: 0;
